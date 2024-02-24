@@ -3,7 +3,7 @@ function calcAverageCalories(days) {
   for (const day of days) {
     totalCalories += day.calories;
   }
-  return days.lenght > 0 ? totalCalories / days.lenght : 0;
+  return days.length > 0 ? totalCalories / days.length : 0;
 }
 
 console.log(
